@@ -3,11 +3,11 @@
         <div class="title">Features</div>
         <div class="border"></div>
         <div class="search-input">
-        <form> <input type="text" class="search" [(ngModel)]= "searchText" name="myName" placeholder="Search" ></form>
+        <form  class="alignCenter"> <input type="text" class="search" [(ngModel)]= "searchText" name="myName" placeholder="Search" ></form>
     </div>
     <div class="ecu-list">
            
-           <ul id="list">
+           <ul id="list"  class="noMargin noPadding">
                <li *ngFor="let x of features |filter:searchText" class="listdata" style="height:38px;" (click)="getName(x.name)"><a [ngClass]="{'gray':x.isDisabled}">{{x.name}}</a></li>
            </ul>
           

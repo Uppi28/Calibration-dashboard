@@ -1,15 +1,14 @@
-<div class="card" >
+<div class="card">
         <div class="title">Sub System</div>
         <div class="border"></div>
         <div class="search-input">
-             <!-- <mat-form-field class="input">
-                     <input matInput placeholder="Search" >
-                   </mat-form-field> -->
-                   <form> <input type="text" class="search" [(ngModel)]= "searchText" name="myName" placeholder="Search" ></form>
+                <form class="alignCenter"> <input type="text" class="search" [(ngModel)]="searchText" name="myName" placeholder="Search">
+                </form>
         </div>
         <div class="subsystem-list">
-                <ul>
-        <li role="listitem" *ngFor="let x of landingService.subSystemList |filter:searchText" (click)="getSubsystemName(x.name)" class="listdata" style="height:38px;">{{x.name}}</li>
-                </ul> 
-           </div>
-    </div>
+                <ul class="noMargin noPadding">
+                        <li role="listitem" *ngFor="let x of landingService.subSystemList |filter:searchText"
+                                (click)="getSubsystemName(x.name)" class="listdata" style="height:38px;">{{x.name}}</li>
+                </ul>
+        </div>
+</div>

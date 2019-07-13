@@ -6,29 +6,20 @@
   <div class="programHolder">
     <app-program-model-container></app-program-model-container>
   </div>
-</div>
-
-<div class="contentplacing">
-  <div>
-    <app-ecu-card></app-ecu-card>
-  </div>
-  <div>
-    <app-subsystem-card></app-subsystem-card>
-  </div>
-  <div>
-    <app-feature-card></app-feature-card>
-  </div>
-  <div class="align">
-    <div>
+  <div class="contentplacing">
+      <div class="listsHolder alignCenter">
+        <div class="cardHolder"><app-ecu-card></app-ecu-card></div>
+        <div class="cardHolder"><app-subsystem-card></app-subsystem-card></div>
+        <div class="cardHolder"><app-feature-card></app-feature-card></div>
+      </div>
+    <div class="align">
       <app-ecu-details></app-ecu-details>
-    </div>
-    <div>
       <app-subsystem-details></app-subsystem-details>
-    </div>
-    <div>
       <app-feature-details></app-feature-details>
     </div>
   </div>
 </div>
+
+
 
 <router-outlet></router-outlet>

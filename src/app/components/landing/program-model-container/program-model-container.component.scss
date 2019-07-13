@@ -1,56 +1,19 @@
-
-// .card {
-//     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-//     transition: 0.3s;
-//     width: 350px;
-//     height: 250px;
-//     margin-top: 1rem;
-//   }
-  
-//   .card:hover {
-//     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-//   }
-//   .data{
-//      background-color: lightgrey;
-//      height: 7.5rem;
-//      width: 178vh;
-//      margin-left: -104px;
-//      margin-top: -32px;
-//   }
-//   .square{
-//       height: 70px;
-//       width: 70px;
-//       border:2px solid black;
-//       float: right;
-//   }
-//   #sel1.form-control{
-//       width: 13rem;
-
-//   }
-//   #sel2.form-control{
-//     width: 13rem;
-    
-// }
-// //   #block-1{
-// //     background-color: gray;
-// //   }
-// #line{
-//     border-left: 1px solid grey;
-//     height: 7.5rem;
-// }
-
 .car-details{
-    position: absolute;
-    height: 117px;
-    left: 12.5%;
-   width: 87.5%;  //1380(1583)
     background-color: #f6f6f6;
- 
-    // line-height: 75px;
-    font-size: 30px;
-    display: flex;
-    flex-wrap: wrap;
-  
+    height: 100%;
+    float: left;
+    width: 100%;
+    .filterHolder{
+        height: 100%;
+        width: 30%;
+        float: left;
+    }
+    .noData{
+        width: 70%;
+        float: left;
+        height: 100%;
+        background: #EEEEEE;
+    }
 }
 .selection{
     height: 30px;
@@ -149,14 +112,6 @@ span{
     width: 164px;
     height: 84px;
     // border: 2px solid white;
-}
-.nodata{
-    font-size: 15px;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    font-weight: bold;
 }
   @media screen and (max-width: 1230px) {
    .car-image{

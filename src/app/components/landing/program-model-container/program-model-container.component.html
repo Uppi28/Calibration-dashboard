@@ -1,170 +1,56 @@
 <div class="car-details">
-<div style="margin-right:20px;"> 
-  
-  <span style="color:#4e5867">Program:</span>
-    <mat-form-field  id="program-name">
+  <div class="filterHolder">
+    <span style="color:#4e5867">Program:</span>
+    <mat-form-field id="program-name">
       <mat-select (selectionChange)="landingService.getModelYearList($event.value)">
-          <mat-option *ngFor="let program of landingService.filterProgramName"  [value]="program">
-            {{program}}
-          </mat-option>
-        </mat-select>
-      </mat-form-field>
-      <div>
+        <mat-option *ngFor="let program of landingService.filterProgramName" [value]="program">
+          {{program}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <div>
       <span style="color:#4e5867">Model Year:</span>
-    <mat-form-field  id="model-year">
-      <mat-select (selectionChange)="landingService.getSelectedProgram($event.value)">
+      <mat-form-field id="model-year">
+        <mat-select (selectionChange)="landingService.getSelectedProgram($event.value)">
           <mat-option *ngFor="let model of landingService.filterModelYear" [value]="model">
             {{model}}
           </mat-option>
         </mat-select>
       </mat-form-field>
     </div>
-</div>
-<div *ngIf="nodata" class="nodata">Select Program To View Data </div>
-<ng-container *ngFor="let carData of brandData">
-<div id="car-model">
-<div>
-    <div class="title">Vehicle Details</div>
-  <div class="vehicle-deatils">
-<div>
-  <div class="brand">Brand</div>
-  <div class="brand-value">{{carData.brand}}</div>
-</div>
-<div>
-    <div class="model">Model</div>
-    <div class="model-value">{{carData.model}}</div>
-</div>
-<div>
-    <div class="type">Type</div>
-  <div class="type-value">{{carData.type}}</div> 
-</div>
-<div>
-    <div class="trim">Trim</div>
-    <div class="trim-value">{{carData.trim}}</div>
-</div>
-<div>
-    <div class="region">Region</div>
-    <div class="region-value">{{carData.region}}</div>
-</div>
-</div>
-
-</div>
-  <div class="car-image">
-    <img src="../../../../assets/images/car1.png.png" height="90px" width="164px"/>
   </div>
-
-
-</div>
-</ng-container>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div class="container-fluid">
-  <div class="col-md-12">
-      <div class="data">
-          <div class="row">
-        <div class="col-md-3" >
-          <div id="block-1">
-            <div class="form-inline">
-                <label for="sel1" style="padding:20px;">Program:</label>
-                <select class="form-control"  id="sel1">
-                     <option>T1XX</option>
-                     <option>T1XX</option>
-                     <option>T1XX</option>
-                     <option>T1XX</option>
-                   </select>
-               </div>
-              </div>
-               <div class="form-inline">
-                  <label for="sel2" style="padding:10px;">Model Year:</label>
-                   <select class="form-control" id="sel2">
-                       <option>2019</option>
-                       <option>2020</option>
-                       <option>2021</option>
-                       <option>2022</option>
-                     </select>
-                 </div>
-                </div>
-                <div class="col-md-1">
-                  <div id="line"></div>
-                </div>
-              </div>
-  </div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-  <div class="col-md-10">
-    <div class="row">
-  <div class="col-md-4">
-     <app-ecu-card></app-ecu-card>
-  </div>
-  <div class="col-md-4">
-  <app-subsystem-card></app-subsystem-card>
-  </div> 
-        
-  <div class="col-md-4">
-      <app-feature-card></app-feature-card>     
-  </div>
-</div>
-</div>
-<div class="col-md-2">
-<div class="card"></div>
-</div>
-</div>
-</div> -->
-
-
-
-
-
-
-
-<!-- <div class="card">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-          <div class="form-group">
-              <label for="sel1">Program</label>
-               <span><select class="form-control" id="sel1">
-                   <option>T1XX</option>
-                   <option>T1XX</option>
-                   <option>T1XX</option>
-                   <option>T1XX</option>
-                 </select></span>
-             </div>
-            </div>
-        <div class="col-md-4">
-            <div class="form-group">
-                <label for="sel2">Model Year</label>
-                 <span><select class="form-control" id="sel2">
-                     <option>2019</option>
-                     <option>2020</option>
-                     <option>2021</option>
-                     <option>2022</option>
-                   </select></span>
-               </div>
-        </div>
-        <div class="col-md-4">
-          <div class="square">
-
+  <div *ngIf="nodata" class="noData alignCenter">Select Program To View Data </div>
+  <ng-container *ngFor="let carData of brandData">
+    <div id="car-model">
+      <div>
+        <div class="title">Vehicle Details</div>
+        <div class="vehicle-deatils">
+          <div>
+            <div class="brand">Brand</div>
+            <div class="brand-value">{{carData.brand}}</div>
+          </div>
+          <div>
+            <div class="model">Model</div>
+            <div class="model-value">{{carData.model}}</div>
+          </div>
+          <div>
+            <div class="type">Type</div>
+            <div class="type-value">{{carData.type}}</div>
+          </div>
+          <div>
+            <div class="trim">Trim</div>
+            <div class="trim-value">{{carData.trim}}</div>
+          </div>
+          <div>
+            <div class="region">Region</div>
+            <div class="region-value">{{carData.region}}</div>
           </div>
         </div>
-  </div>
+
+      </div>
+      <div class="car-image">
+        <img src="../../../../assets/images/car1.png.png" height="90px" width="164px" />
+      </div>
     </div>
-    </div> -->
-
-
+  </ng-container>
+</div>

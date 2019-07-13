@@ -9,19 +9,29 @@
   }
   .programHolder { 
     width: 85%;
-    height: 100%;
+    height: 25%;
     float: right;
   }
+  .contentplacing{
+    float: left;
+    height: calc(75% - 30px);
+    width: calc(85% - 30px);
+    padding: 15px;
+    .listsHolder{
+      width: 60%;
+      height: 100%;
+      float: left;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .cardHolder{
+        width: 30%;
+        height: 100%;
+      }
+    }
+  }
 }
-.contentplacing{
-    position: absolute;
-    left:13.5%;
-    top:23%;
-    display: flex;
-    flex-wrap: wrap;
-      align-content: space-between;
-      // flex-direction: column;
-}
+
 .wholecontent{
   display: flex;
   flex-wrap: wrap;
