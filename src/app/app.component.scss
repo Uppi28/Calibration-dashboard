@@ -1,8 +1,17 @@
-.sidebar{
-    display: flex;
-  flex-wrap: wrap;
-    align-content: space-between;
-   
+.contentHolder{
+  width: 100%;
+  height: calc(100% - 60px);
+  margin-top: 60px;
+  .sideBarHolder{
+    width: 15%;
+    float: left;
+    height: 100%;
+  }
+  .programHolder { 
+    width: 85%;
+    height: 100%;
+    float: right;
+  }
 }
 .contentplacing{
     position: absolute;

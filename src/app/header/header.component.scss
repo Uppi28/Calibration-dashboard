@@ -7,6 +7,11 @@
 .header {
   width: 100%;
   height: 60px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  position: fixed;
+  top: 0;
+  background: white;
+  z-index: 1;
   .logoHolder{
     height: calc(100% - 10px);
     width: calc(15% - 40px);
