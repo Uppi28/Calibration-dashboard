@@ -1,0 +1,74 @@
+.subsystem-details{
+    background: #f6f6f6;
+    height: 134px;
+    width: 479px;
+    margin-top:8px;
+    margin-left: 3rem;
+}
+.title{
+    padding-top: 8px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: bold;
+    color: #6d6d6d;
+}
+.subsystem-name{
+    font-size: 16px;
+    color:#277847;
+    padding-top: 8px;
+    text-align: center;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+   
+
+}
+.sw-version{
+    font-size: 12px;
+    color: #6d6d6d;
+
+}
+.hw-version{
+    font-size: 12px;
+    color: #6d6d6d; 
+    
+}
+.cal-part{
+    font-size: 12px;
+    color: #6d6d6d; 
+    text-align:center;
+
+    
+
+}
+.hw-versionvalue{
+    font-size:12px;
+    color: #22559e;
+    font-weight: bold;
+
+    
+}
+.sw-versionvalue{
+    font-size:12px;
+    color: #22559e;
+    font-weight: bold;
+
+    
+}
+.cal-partvalue{
+    font-size:12px;
+    color: #22559e;
+    font-weight: bold;
+word-break: break-all;
+word-spacing: 1px;
+padding-left: 8px;
+}
+.software{
+margin-left: 57px;
+}
+// .calculation{
+
+// }

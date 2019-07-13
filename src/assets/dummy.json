@@ -1,0 +1,1059 @@
+[{
+    "programName": "T1XX",
+    "modelYear":"2020",
+    "data" : {
+      "brand" : "Chevrolet",
+      "model": "XDS",
+      "type":"Truck",
+      "trim":"Base",
+      "region":"USA, Canada, Mexico",
+      "imageName":""
+    },
+    "ecu": [{
+      "name": "BCM",
+      "version":"32654783_ST",
+      "isDisabled": false,
+      "isError": false,
+      "hardwareVersion": "Model Year 2020",
+      "softwareVersion": "20.20.146_AD",
+      "calParts":["26620513_AD","26620514_AD","26620515_AD","26620516_AD","26620517_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD"],
+      "subSystem": [{
+        "name": "Exterior Lighting",
+         "isDisabled": false,
+         "calPartsSubsystem": ["26620513_AD","26620514_AD","26620515_AD","26620516_AD","26620517_AD","26620513_AD"],
+          "features": [{
+            "name" :"DRL",
+            "isDisabled": false,
+            "calPartsFeatures": ["26620513_AD","26620515_AD","26620516_AD","26620517_AD","26620513_AD"],
+            "dependency": [],
+            "treeview": []
+          },
+          {
+            "name" :"Fog Lamps",
+            "calPartsFeatures": ["26620516_AD","26620516_AD","26620517_AD","26620513_AD"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          {
+            "name" :"Break Lamps",
+            "calPartsFeatures": ["26620523_AD","26620516_AD","26620517_AD","26620513_AD"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          {
+            "name" :"Park Lamps",
+            "calPartsFeatures": ["26620533_AD","26620516_AD","26620517_AD","26620513_AD"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          
+          {
+            "name" :"Head Lamps",
+            "calPartsFeatures": ["26620423_AD","26620516_AD","26620517_AD","26620513_AD"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          
+          {
+            "name" :"Cargo Lamps",
+            "calPartsFeatures": ["84620523_AD","26620516_AD","26620517_AD","26620513_AD"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          
+          {
+            "name" :"ALC",
+            "isDisabled": false,
+            "calPartsFeatures": ["26600523_AD","26620516_AD","26620517_AD","26620513_AD"],
+            "dependency": [],
+            "treeview": []
+          },
+          
+              {
+            "name" :"FMH",
+            "calPartsFeatures": ["26620323_AD","26620516_AD","26620517_AD","26620513_AD"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          
+                  {
+            "name" :"LMTC",
+            "calPartsFeatures": ["26650523_AD","26620516_AD","26620517_AD","26620513_AD"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          
+                  {
+            "name" :"AHBA",
+            "calPartsFeatures": ["87620523_AD","26620516_AD","26620517_AD","26620513_AD"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          
+                  {
+            "name" :"Ambient Lamps",
+            "calPartsFeatures": ["99620523_AD","26620516_AD","26620517_AD","26620513_AD"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          
+                  {
+            "name" :"Dimming",
+            "calPartsFeatures": ["28820523_AD","26620516_AD","26620517_AD","26620513_AD"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          }]
+        },
+        {
+      "name": "Interior Lighting",
+      "calPartsSubsystem": ["26620513_IL","26620514_IL","26620515_IL","26620516_IL","26620517_IL","26620513_IL"],
+      "isDisabled": false,
+            "features": [{
+            "name" :"Interior Lighting1",
+            "calPartsFeatures": ["26620513_IL","26620514_IL","26620515_IL"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Interior Lighting2",
+           "calPartsFeatures": ["26620513_IL","26620514_IL","26620515_IL"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Interior Lighting3",
+           "calPartsFeatures": ["26620513_IL","26620514_IL","26620515_IL"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Interior Lighting4",
+           "calPartsFeatures": ["26620513_IL","26620514_IL","26620515_IL"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Interior Lighting5",
+           "calPartsFeatures": ["26620513_IL","26620514_IL","26620515_IL"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Interior Lighting6",
+           "calPartsFeatures": ["26620513_IL","26620514_IL","26620515_IL"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Interior Lighting7",
+           "calPartsFeatures": ["26620513_IL","26620514_IL","26620515_IL"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          }]
+        },
+         {
+        "name": "Vehicle State",
+        "calPartsSubsystem": ["26620513_VS","26620514_VS","26620515_VS","26620516_VS","26620517_VS","26620513_VS"],
+         "isDisabled": true,
+          "features": [
+          {
+           "name" :"Vehicle State1",
+           "calPartsFeatures": ["26620516_VS","26620517_VS","26620513_VS"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Vehicle State2",
+           "calPartsFeatures": ["26620516_VS","26620517_VS","26620513_VS"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Vehicle State3",
+           "calPartsFeatures": ["26620516_VS","26620517_VS","26620513_VS"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Vehicle State4",
+           "calPartsFeatures": ["26620516_VS","26620517_VS","26620513_VS"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Vehicle State5",
+           "calPartsFeatures": ["26620516_VS","26620517_VS","26620513_VS"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          }
+          
+          ,
+          {
+           "name" :"Vehicle State6",
+           "calPartsFeatures": ["26620516_VS","26620517_VS","26620513_VS"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Vehicle State7",
+           "calPartsFeatures": ["26620516_VS","26620517_VS","26620513_VS"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          }
+                  
+  ]
+        },
+         {
+        "name": "HVAC",
+        "calPartsSubsystem": ["26620513_HV","26620514_HV","26620515_HV","26620516_HV","26620517_HV","26620513_HV","26620515_HV","26620516_HV","26620517_HV","26620513_HV"],
+         "isDisabled": true,
+          "features": [
+                  {
+           "name" :"HVAC1",
+           "calPartsFeatures": ["26620517_HV","26620513_HV","26620515_HV","26620516_HV","26620517_HV","26620513_HV"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"HVAC2",
+           "calPartsFeatures": ["26620517_HV","26620513_HV","26620515_HV","26620516_HV","26620517_HV","26620513_HV"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"HVAC3",
+           "calPartsFeatures": ["26620517_HV","26620513_HV","26620515_HV","26620516_HV","26620517_HV","26620513_HV"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"HVAC4",
+           "calPartsFeatures": ["26620517_HV","26620513_HV","26620515_HV","26620516_HV","26620517_HV","26620513_HV"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+              {
+           "name" :"HVAC5",
+           "calPartsFeatures": ["26620517_HV","26620513_HV","26620515_HV","26620516_HV","26620517_HV","26620513_HV"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+              {
+           "name" :"HVAC6",
+           "calPartsFeatures": ["26620517_HV","26620513_HV","26620515_HV","26620516_HV","26620517_HV","26620513_HV"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+              {
+           "name" :"HVAC7",
+           "calPartsFeatures": ["26620517_HV","26620513_HV","26620515_HV","26620516_HV","26620517_HV","26620513_HV"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          }
+  ]
+        },
+         {
+        "name": "HMI",
+        "calPartsSubsystem": ["26620513_HM","26620514_HM","26620515_HM","26620516_HM","26620517_HM","26620513_HM","26620515_HM","26620516_HM"],
+         "isDisabled": true,
+          "features": [
+          
+          {
+           "name" :"HMI1",
+           "calPartsFeatures": ["26620515_HM","26620516_HM"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"HMI2",
+           "calPartsFeatures": ["26620515_HM","26620516_HM"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          
+          {
+           "name" :"HMI3",
+           "calPartsFeatures": ["26620515_HM","26620516_HM"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"HMI4",
+           "calPartsFeatures": ["26620515_HM","26620516_HM"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"HMI5",
+           "calPartsFeatures": ["26620515_HM","26620516_HM"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"HMI6",
+           "calPartsFeatures": ["26620515_HM","26620516_HM"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"HMI7",
+           "calPartsFeatures": ["26620515_HM","26620516_HM"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          }
+                  
+  ]
+        },
+        
+        {
+        "name": "Brake Controls",
+         "isDisabled": true,
+          "features": [
+          {
+           "name" :"Brake Controls1",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          {
+           "name" :"Brake Controls2",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          {
+           "name" :"Brake Controls3",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          {
+           "name" :"Brake Controls4",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Brake Controls5",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Brake Controls6",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Brake Controls7",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          }
+                  
+  ]
+        },
+        
+        {
+        "name": "Entry Controls",
+         "isDisabled": true,
+          "features": [
+          
+          {
+           "name" :"Entry Controls1",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Entry Controls2",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Entry Controls3",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Entry Controls4",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Entry Controls5",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Entry Controls6",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Entry Controls7",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          }
+          
+          
+      
+                  
+  ]
+        },
+        
+          {
+        "name": "Wash Wipe",
+         "isDisabled": true,
+          "features": [
+                  {
+           "name" :"Wash Wipe1",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Wash Wipe2",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Wash Wipe3",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Wash Wipe4",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Wash Wipe5",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Wash Wipe6",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Wash Wipe7",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          }
+  ]
+        },
+        
+          {
+        "name": "Power Windows",
+         "isDisabled": true,
+          "features": [
+          {
+           "name" :"Power Windows1",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+  
+  {
+           "name" :"Power Windows2",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Power Windows3",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          
+  
+  {
+           "name" :"Power Windows4",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Power Windows5",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Power Windows6",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Power Windows7",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          }
+  ]
+        },
+        
+          {
+        "name": "Heated Seats",
+         "isDisabled": true,
+          "features": [
+          {
+           "name" :"Heated Seats1",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Heated Seats2",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Heated Seats3",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Heated Seats4",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+              {
+           "name" :"Heated Seats5",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+              {
+           "name" :"Heated Seats6",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+              {
+           "name" :"Heated Seats7",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          }
+                  
+  ]
+        },
+        
+            {
+        "name": "Energy Management",
+         "isDisabled": true,
+          "features": [
+          
+          {
+           "name" :"Energy Management1",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+              {
+           "name" :"Energy Management2",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+              {
+           "name" :"Energy Management3",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+              {
+           "name" :"Energy Management4",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Energy Management5",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Energy Management6",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+          {
+           "name" :"Energy Management7",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          }
+                              
+  ]
+        },
+        
+                  {
+        "name": "Control Theft Deterent",
+         "isDisabled": true,
+          "features": [
+          
+              {
+           "name" :"Control Theft Deterent1",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+                  {
+           "name" :"Control Theft Deterent2",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+                  {
+           "name" :"Control Theft Deterent3",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+                  {
+           "name" :"Control Theft Deterent4",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+                  {
+           "name" :"Control Theft Deterent5",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+              {
+           "name" :"Control Theft Deterent6",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          },
+          
+              {
+           "name" :"Control Theft Deterent7",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          
+          }]
+          }	  
+        ]    
+    
+       
+    },
+    {
+    "name": "ECM",
+      "version":"1695632_DB",
+      "isDisabled": false,
+      "isError": false,
+      "hardwareVersion": "Model Year 2020",
+      "softwareVersion": "20.20.146_EC",
+      "calParts":["26620513_EC","26620514_EC","26620515_EC","26620516_EC","26620517_EC"],
+      "subSystem": [{
+        "name": "ECM_Subsystem1",
+        "calPartsSubsystem": ["26620513_IL","26620514_IL","26620515_IL","26620516_IL","26620517_IL","26620513_IL"],
+         "isDisabled": false,
+          "features": [{
+            "name" :"ECM_Subs1_1",
+            "calPartsFeatures": ["26620515_EC","26620516_EC"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          {
+            "name" :"ECM_Subs1_2",
+            "calPartsFeatures": ["26620515_EC","26620516_EC"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          }]
+        }]
+      },
+    {
+    "name": "EBCM",
+      "version":"52462689_AR",
+      "isDisabled": false,
+      "isError": false,
+      "hardwareVersion": "Model Year 2020",
+      "softwareVersion": "20.20.146_EB",
+      "calParts":["26620513_EB","26620514_EB","26620515_EB","26620516_EB","26620517_EB","26620513_EB","26620513_EB"],
+      "subSystem": [{
+        "name": "EBCM_Subsystem1",
+        "calPartsSubsystem": ["26620515_EB","26620516_EB","26620515_EB","26620516_EB","26620515_EB","26620516_EB"],
+         "isDisabled": true,
+          "features": [{
+            "name" :"EBCM_Subsystem1_1",
+            "calPartsFeatures": ["26620516_EB"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          {
+            "name" :"EBCM_Subsystem1_2",
+            "calPartsFeatures": ["26620515_EB"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          }]
+          }]
+      },
+    {
+    "name": "ELM",
+      "version":"12985845_QH",
+      "isDisabled": false,
+      "isError": false,
+      "hardwareVersion": "Model Year 2020",
+      "softwareVersion": "20.20.146_EL",
+      "calParts":["26620513_EL","26620514_EL","26620515_EL","26620516_EL","26620517_EL","26620513_EL","26620513_EL"],
+      "subSystem": [{
+        "name": "ELM_Subsystem1",
+        "calPartsSubsystem": ["26620515_EL","26620516_EL","26620515_EL","26620516_EL","26620515_EL","26620516_EL"],
+         "isDisabled": false,
+          "features": [{
+            "name" :"ELM_Subsystem1_1",
+            "calPartsFeatures": ["26620515_EL"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          {
+            "name" :"ELM_Subsystem1_1",
+            "calPartsFeatures": ["26620515_EL"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          }]
+          }]
+      },
+    {
+    "name": "IPC",
+      "version":"69545873_WE",
+      "isDisabled": false,
+      "isError": false,
+      "hardwareVersion": "Model Year 2020",
+      "softwareVersion": "20.20.146_IP",
+      "calParts":["26620513_AD","26620514_IP","26620515_IP","26620516_IP","26620517_IP","26620513_IP","26620513_IP","26620513_IP","26620513_IP","26620513_IP","26620513_IP","26620513_IP"],
+      "subSystem": [{
+        "name": "IPC_Subsystem1",
+        "calPartsSubsystem": ["26620513_IP","26620513_IP","26620513_IP","26620513_IP","26620513_IP","26620513_IP","26620513_IP"],
+         "isDisabled": false,
+          "features": [{
+            "name" :"IPC_Subsystem1_1",
+            "calPartsFeatures": ["26620513_IP","26620513_IP"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          {
+            "name" :"IPC_Subsystem1_2",
+            "calPartsFeatures": ["26620513_IP","26620513_IP","26620513_IP"],
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          }]
+          }]
+      },
+    {
+    "name": "SPIM",
+      "version":"32654783_SP",
+      "isDisabled": false,
+      "isError": false,
+      "hardwareVersion": "Model Year 2020",
+      "softwareVersion": "20.20.146_SP",
+      "calParts":["26620513_AD","26620514_SP","26620515_SP","26620516_SP","26620517_SP"],
+      "subSystem": [{
+        "name": "SPIM_Subsystem1",
+         "isDisabled": true,
+          "features": [{
+            "name" :"SPIM_Subsystem1_1",
+            "isDisabled": false,
+            "calPartsFeatures": ["26620513_SP","26620513_SP","26620513_SP"],
+            "dependency": [],
+            "treeview": []
+          },
+          {
+            "name" :"SPIM_Subsystem1_2",
+            "isDisabled": false,
+            "calPartsFeatures": ["26620513_SP","26620513_SP","26620513_SP"],
+            "dependency": [],
+            "treeview": []
+          }]
+          }]
+      },
+    {
+    "name": "TCM",
+      "version":"32654667_TC",
+      "isDisabled": true,
+      "isError": false,
+      "hardwareVersion": "Model Year 2020",
+      "softwareVersion": "20.20.146_TC",
+      "calParts":["26620513_TC","26620514_TC","26620515_TC","26620516_TC","26620517_TC","26620513_TC","26620513_TC","26620513_TC","26620513_TC","26620513_TC","26620513_TC"],
+      "subSystem": [{
+        "name": "TCM_Subsystem1",
+         "isDisabled": true,
+          "features": [{
+            "name" :"TCM_Subsystem1_1",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          {
+            "name" :"TCM_Subsystem1_2",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          }]
+          }]
+      },
+    {
+    "name": "AOS",
+      "version":"32554783_AO",
+      "isDisabled": true,
+      "isError": false,
+      "hardwareVersion": "Model Year 2020",
+      "softwareVersion": "20.20.146_AO",
+      "calParts":["26620513_AO","26620514_AO","26620515_AO","26620516_AO","26620517_AO","26620513_AO","26620513_AO","26620513_AO"],
+      "subSystem": [{
+        "name": "AOS_Subsystem1",
+         "isDisabled": true,
+          "features": [{
+            "name" :"AOS_Subsystem1_1",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          {
+            "name" :"AOS_Subsystem1_2",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          }]
+          }]
+      },
+    {
+    "name": "BSM",
+      "version":"32654783_BM",
+      "isDisabled": true,
+      "isError": false,
+      "hardwareVersion": "Model Year 2020",
+      "softwareVersion": "20.20.146_AD",
+      "calParts":["26620513_BM","26620514_BM","26620515_BM","26620516_BM","26620517_BM"],
+      "subSystem": [{
+        "name": "BSM_Subsystem1",
+         "isDisabled": true,
+          "features": [{
+            "name" :"BSM_Subsystem1_1",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          {
+            "name" :"BSM_Subsystem1_2",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          }]
+      }]
+      }
+    ]
+  }]
+  
+  

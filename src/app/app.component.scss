@@ -1,0 +1,38 @@
+.sidebar{
+    display: flex;
+  flex-wrap: wrap;
+    align-content: space-between;
+   
+}
+.contentplacing{
+    position: absolute;
+    left:13.5%;
+    top:23%;
+    display: flex;
+    flex-wrap: wrap;
+      align-content: space-between;
+      // flex-direction: column;
+}
+.wholecontent{
+  display: flex;
+  flex-wrap: wrap;
+     
+
+}
+.align{
+  display: flex;
+  flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: column;
+}
+@media screen and (max-width: 1230px) {
+  .contentplacing{
+    top:40%;
+  }
+ }
+  @media screen and (max-width: 1360px) {
+   .contentplacing{
+     top:40%;
+   }
+  
+  }

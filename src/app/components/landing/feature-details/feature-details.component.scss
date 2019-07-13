@@ -1,0 +1,105 @@
+.feature-details{
+    background: #f6f6f6;
+    height: 134px;
+    width: 479px;
+    margin-top:8px;
+    margin-left: 3rem;
+}
+.btn-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-left: 17.5rem;
+}
+.legend{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    margin-left:4.5rem;
+}
+.tree-view{
+    margin-right: 9px;
+}
+
+.title{
+    padding-top: 8px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: bold;
+    color: #6d6d6d;
+}
+.feature-name{
+    font-size: 16px;
+    color:#277847;
+    padding-top: 8px;
+    text-align: center;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 42px;
+
+}
+.sw-version{
+    font-size: 12px;
+    color: #6d6d6d;
+
+}
+// .hw-version{
+//     font-size: 12px;
+//     color: #6d6d6d; 
+    
+// }
+.cal-part{
+    font-size: 12px;
+    color: #6d6d6d; 
+    
+
+}
+.hw-versionvalue{
+    font-size:12px;
+    color: #22559e;
+    font-weight: bold;
+
+    
+}
+.sw-versionvalue{
+    font-size:12px;
+    color: #22559e;
+    font-weight: bold;
+    
+}
+.cal-partvalue{
+    font-size:12px;
+    color: #22559e;
+    font-weight: bold;
+
+}
+.software{
+margin-left: 57px;
+}
+.calculation{
+    margin-left: 57px; 
+}
+.green{
+color: #277847;
+font-size: 13px;
+padding-right: 1.5rem;
+}
+.red{
+    color:red;
+    font-size: 13px;
+    padding-right: 1.5rem;;
+}
+.gray{
+    color: #6d6d6d;
+    font-size: 13px;
+    padding-right: 1.5rem;
+}
+.legend-font{
+    font-size: 13px;
+    color: black;
+    padding-left: 10px;
+}

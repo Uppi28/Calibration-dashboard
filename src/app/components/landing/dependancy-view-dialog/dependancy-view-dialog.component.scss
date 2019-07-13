@@ -1,0 +1,22 @@
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    font-size: 16px;
+    color:#474747;
+    padding-left: 5px;
+    padding-bottom: 13px;
+}
+.border{
+    border-bottom: 2px solid #f6f6f6;
+}
+.close-icon{
+    position: absolute;
+    right: 16rem;
+    margin-top: -9px;
+}
+.dependancy-btn{
+    float: right;
+    margin-top: 15px;
+}

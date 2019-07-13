@@ -1,0 +1,37 @@
+<div class="ecu-details">
+
+<div class="title">ECU</div>
+<ng-container *ngFor="let data of ecuDetailedData">
+<div class="ecu-name">{{data.name}}</div>
+<div class="details">
+                <div class="hardware">
+                <div class="hw-version">HW Version</div>
+                <div class="hw-versionvalue">{{data.hardwareVersion}}</div>
+    </div>
+       
+   <div class="software">
+        <div class="sw-version">SW Version</div>
+        <div class="sw-versionvalue">{{data.softwareVersion}}</div>
+   </div> 
+   <div class="calculation">
+                <div class="cal-part">Cal Part(0-30)</div>
+                <div class="cal-values">
+                <div class="cal-partvalue" *ngFor ="let cal of secondOne"><span>{{cal}},</span></div>
+                <div *ngIf="newArray.length >= 2">
+                <div class="dropdown">
+                <div style="font-size:10px;">Show More<span>+</span>{{newOne.length}}</div>
+                <div class="dropdown-content">
+                <ul *ngFor="let x of newOne">
+                 <li>{{x}}</li>       
+                </ul>
+                </div>
+        </div>
+        </div>
+  </div>
+  
+   </div>
+   </div>
+</ng-container>
+
+</div>
+

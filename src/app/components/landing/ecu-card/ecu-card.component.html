@@ -1,0 +1,31 @@
+
+<!-- <app-program-model-container (programIdEvent)="receiveMessage($event)"></app-program-model-container> -->
+<div class="card" >
+   <div class="title">ECU</div>
+   <div class="border"></div>
+   <div class="search-input">
+        <!-- <mat-form-field class="input"> -->
+            <form> <input class="search" type="text" [(ngModel)]= "searchText" name="myName" placeholder="Search" ></form>
+    </div>       
+              <!-- </mat-form-field> -->
+             <div class="ecu-list">
+        
+            <!-- <mat-nav-list role="list" (click)="getName(event.value)">
+             <mat-list-item role="listitem"  *ngFor="let x of ecuNames|filter:searchText" name="data" [(ngModel)]="data"  class="listdata" style="height:38px;" [value]="x.name">{{x.name}}</mat-list-item>
+                </mat-nav-list>  -->
+               <ul >
+                    
+                <ng-container *ngFor="let x of landingService.ecuList |filter:searchText">
+
+                   <li  (click)="landingService.getSubSystemList(x.name)" class="listdata" style="height:38px;"><a [ngClass]="{'gray':x.isDisabled, 'red':x.isError}">{{x.name}}</a>
+                    <div style="font-size:10px;color:#20324b">{{x.version}}</div>
+                <!-- <li><a [ngClass]="{'gray':x.isDisabled, 'red':x.isError}">{{x.version}}</a></li> -->
+                </li>
+
+                </ng-container>
+              
+                </ul>
+           
+   </div>
+   
+</div>

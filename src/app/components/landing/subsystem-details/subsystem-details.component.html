@@ -1,0 +1,24 @@
+<div class="subsystem-details">
+        <div class="title">Sub System</div>
+        <ng-container *ngFor ="let data of ">
+        <div class="subsystem-name">{{data.name}}</div>
+        <div class="details">
+                <!-- <div class="hardware">
+                        <div class="hw-version">HW Version</div>
+                        <div class="hw-versionvalue">Model Year 2020</div>
+            </div>
+               
+           <div class="software">
+                <div class="sw-version">SW Version</div>
+                <div class="sw-versionvalue">20.20.146 AD</div>
+           </div>  -->
+           
+            <div>
+            <div class="cal-part">Cal Part</div>
+            <div class="cal-partvalue">{{data.calPartsSubsystem}}</div>
+            </div>
+         
+        </div>
+</ng-container>
+        
+    </div>

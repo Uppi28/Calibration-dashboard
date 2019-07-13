@@ -1,0 +1,33 @@
+<div class="feature-details">
+        <div class="title">Features</div>
+        <div class="feature-name" *ngFor="let data of featureObj">{{data.name}}</div>
+        <div class="details">
+                <!-- <div class="hardware">
+                        <div class="hw-version">HW Version</div>
+                        <div class="hw-versionvalue">Model Year 2020</div>
+            </div> -->
+               
+           <div class="software">
+                <div class="sw-version">Configurations</div>
+                <div class="sw-versionvalue">20.20.146 AD</div>
+           </div> 
+           
+            <div class="calculation">
+            <div class="cal-part">Cal Part</div>
+            <ng-container *ngFor="let x of featureObj">
+            <div class="cal-partvalue" *ngFor="let cal of x.calPartsFeatures">{{cal}}</div>
+        </ng-container>
+            </div>
+         
+        </div>   
+</div>
+<div class="btn-container">
+    <div class="tree-view"><button mat-raised-button color="primary" (click)="openDialogTree()">Tree view</button></div>
+    <div><button mat-raised-button color="primary" (click)="openDialogDependancy()">Dependancy view</button></div>
+   
+</div>
+<div class="legend">
+<div class="green">XXXXX<span class="legend-font">Available</span></div>
+<div class="red">XXXXX<span class="legend-font">Error</span></div>
+<div class="gray">XXXXX<span class="legend-font">Unavailable</span></div>
+</div>

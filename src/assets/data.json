@@ -1,0 +1,202 @@
+[{
+    "programName": "T1XX",
+    "modelYear":"2020",
+    "data" : {
+      "brand" : "Chevrolet",
+      "model": "XDS",
+                  "type":"Truck",
+                  "trim":"Base",
+                  "region":"USA, Canada, Mexico",
+                  "imageName":""
+    },
+    "ecu": [{
+      "name": "BCM",
+      "id" : 1,
+      "version":"32654783_ST",
+      "isDisabled": false,
+      "isError": false,
+      "hardwareVersion": "Model Year 2020",
+                  "softwareVersion": "20.20.146_AD",
+      "cal":["26620513_AD","26620514_AD","26620515_AD","26620516_AD","26620517_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD","26620513_AD"],
+      "subSystem": [{
+        "name": "Exterior Lighting",
+         "isDisabled": true,
+          "features": [{
+            "name" :"DRL",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          {
+            "name" :"Fog Lamps",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          {
+            "name" :"Break Lamps",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          {
+            "name" :"Park Lamps",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          
+          {
+            "name" :"Head Lamps",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          
+          {
+            "name" :"Cargo Lamps",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          
+          {
+            "name" :"ALC",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          
+              {
+            "name" :"FMH",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          
+                  {
+            "name" :"LMTC",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          
+                  {
+            "name" :"AHBA",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          
+                  {
+            "name" :"Ambient Lamps",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          },
+          
+                  {
+            "name" :"Dimming",
+            "isDisabled": false,
+            "dependency": [],
+            "treeview": []
+          }
+          
+          
+          
+                  
+  ]
+        },
+        {
+        "name": "Interior Lighting",
+         "isDisabled": true,
+          "features": [
+                  
+  ]
+        },
+         {
+        "name": "Vehicle State",
+         "isDisabled": true,
+          "features": [
+                  
+  ]
+        },
+         {
+        "name": "HVAC",
+         "isDisabled": true,
+          "features": [
+                  
+  ]
+        },
+         {
+        "name": "HMI",
+         "isDisabled": true,
+          "features": [
+                  
+  ]
+        },
+        
+        {
+        "name": "Brake Controls",
+         "isDisabled": true,
+          "features": [
+                  
+  ]
+        },
+        
+        {
+        "name": "Entry Controls",
+         "isDisabled": true,
+          "features": [
+                  
+  ]
+        },
+        
+          {
+        "name": "Wash Wipe",
+         "isDisabled": true,
+          "features": [
+                  
+  ]
+        },
+        
+          {
+        "name": "Power Windows",
+         "isDisabled": true,
+          "features": [
+                  
+  ]
+        },
+        
+          {
+        "name": "Heated Seats",
+         "isDisabled": true,
+          "features": [
+                  
+  ]
+        },
+        
+            {
+        "name": "Energy Management",
+         "isDisabled": true,
+          "features": [
+                  
+  ]
+        },
+        
+                  {
+        "name": "Control Theft Deterent",
+         "isDisabled": true,
+          "features": [
+                  
+  ]
+        }
+]
+        
+      
+    }]
+  }
+    
+    
+    ]
+  
