@@ -3,14 +3,33 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 html,body{
-    // overflow-y: hidden;
     margin:0;
     padding:0;
     height: 100%;
     width: 100%;
-    // overflow: hidden;
-    // font-family: 'Segoe UI';
+    font-family: 'Segoe UI';
 }
+
+.align{
+  display: flex;
+  align-items: center;
+}
+
+.alignLeft{
+  @extend .align;
+  justify-content: flex-start;
+}
+
+.alignRight{
+  @extend .align;
+  justify-content: flex-end;
+}
+
+.alignCenter{
+  @extend .align;
+  justify-content: center;
+}
+
 .node {
     cursor: pointer;
 }
@@ -42,24 +61,7 @@ svg{
     margin-right: auto;
     margin-top: 3rem;
 }
-// table
-// {
-//     border-bottom: 1px solid gray;
-//     border-collapse: collapse;
-// }
-// table th
-// {
-//     background-color:gray;
-//     color: #333;
-//     font-weight: bold;
-// }
-// table th, table td
-// {
-//     padding: 5px;
-//     // border-color: #ccc;
-// }
 table, th, td {
-    // border-bottom: 1px solid black;
     border-collapse: collapse;
     width: 100%; 
   }
@@ -75,7 +77,3 @@ table, th, td {
   th:first{
     color:yellowgreen;
   }
-//   table#t01 {
-       
-//     background-color: #f1f1c1;
-//   }
