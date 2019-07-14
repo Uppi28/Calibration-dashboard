@@ -9,12 +9,12 @@
   }
   .programHolder { 
     width: 85%;
-    height: 25%;
+    height: 20%;
     float: right;
   }
   .contentplacing{
     float: left;
-    height: calc(75% - 30px);
+    height: calc(80% - 30px);
     width: calc(85% - 30px);
     padding: 15px;
     .listsHolder{
@@ -27,6 +27,20 @@
       .cardHolder{
         width: 30%;
         height: 100%;
+      }
+    }
+    .detailsHolder{
+      width: 40%;
+      height: calc(75% + 30px);
+      float: left;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: column;
+      .detailsCardHolder{
+        height: 30%;
+        width: 100%;
+        margin-bottom: 10px;
       }
     }
   }
